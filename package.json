@@ -1,7 +1,7 @@
 {
-    "name": "filepond",
+    "name": "filepond-mod-viasuper",
     "version": "1.8.5",
-    "description": "FilePond, Where files go to stretch their bits.",
+    "description": "FilePond, Where files go to stretch their bits (modificado por Lucas).",
     "homepage": "https://pqina.nl/filepond",
     "repository": "pqina/filepond",
     "main": "dist/filepond.js",

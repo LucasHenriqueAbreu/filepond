@@ -4307,7 +4307,7 @@ function signature:
           createFileLoader(
             origin === FileOrigin.INPUT
               ? // input
-                isString(source) && isExternalURL(source)
+                isString(source) //&& isExternalURL(source) alterado para atender nossas necessidades.
                 ? createFetchFunction(url, fetch) // remote url
                 : fetchLocal // local url
               : // limbo or local
